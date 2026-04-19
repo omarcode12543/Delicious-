@@ -1,0 +1,146 @@
+*{
+    font-family: 'Great Vibes', cursive; 
+    color: antiquewhite;
+    margin:0px;
+    padding: 0px; 
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, .3);
+    display: grid;
+    grid-template-columns: 2fr  1fr;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0px;
+}
+
+.left_part {
+    padding-left: 20px;
+}
+
+nav .left_part h1{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav .left_part i {
+    font-size: 30px ;
+}
+
+.right_part a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.right_part a:hover{
+    color: #d65106;
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url("../images/background.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    text-align: center;
+}
+
+input{
+    background-color: #d65106;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+input:hover{
+    background-color: rgb(255, 255, 255);
+    color: #d65106;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+#about_section{
+    background-color: antiquewhite;
+}
+
+#Chicken_section{
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+#about_section .about_contet h1 , .Chicken_section .Chicken_contet h1{
+    color: #d65106;
+}
+
+#about_section .about_contet p{
+    color: black;
+}
+
+img{
+    width: 70%;
+    border-radius: 30px;
+}
+
+.Seafood_section{
+    background-color: antiquewhite;
+}
+
+.Seafood_section h1{
+    color: #d65106;
+}
+
+.Seafood_section p{
+    color: rgb(0, 0, 0);
+}
+
+.foods{
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.foods img{
+    display: inline-block;
+    width: 30%;
+}
+.foods img:hover{
+    width: 33%;
+}
+#info{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#info span{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+#info i{
+    color: #d65106;
+}
